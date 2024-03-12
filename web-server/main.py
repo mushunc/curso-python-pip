@@ -9,11 +9,11 @@ def get_list():
 
 @app.get ('/contact')
 def get_list():
-    return [name:'plz']
+    return {name:'Platzi'}
 
 
 def run():
     store.get_categories()
     
     if __name__ == '__main__':
-        run(type(r.text))
+        run()
